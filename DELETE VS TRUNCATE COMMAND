@@ -1,0 +1,9 @@
+Difference between DELETE AND TRUNCATE command in Database.
+
+DELETE COMMAND : 
+1. Records will be deleted one by one, this leads more time consumption.
+2. Deleted data an recover the data back by transactional statment called rollback.
+
+TRUNCATE COMMAND: 
+1. Drops the table and re-creates the table again with same type.
+2. Truncated data can not be retrieve.
